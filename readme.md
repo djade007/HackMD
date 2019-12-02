@@ -2,7 +2,7 @@
 
 Q1. Included in src/Monnify.php
 
-#Installing
+##Installing
 ```sh
 $ composer install
 $ cp .env.example .env
