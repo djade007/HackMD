@@ -1,0 +1,22 @@
+{
+  "name": "olajideafeez/monnify",
+  "authors": [
+    {
+      "name": "Olajide Afeez",
+      "email": "jide4real43@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.4",
+    "ext-json": "*",
+    "vlucas/phpdotenv": "^4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "HMO\\": "src/"
+    }
+  }
+}
