@@ -8,8 +8,8 @@ use HMO\Monnify;
 
 $m = new Monnify();
 
-//$m->reserveAccount("456", "hello@test.com");
+//var_dump($m->reserveAccount("456", "hello@test.com"));
 
-//$m->deactivateAccount("7381142151");
+//var_dump($m->deactivateAccount("7381142151"));
 
-$m->transactions("456");
+//var_dump($m->transactions("456"));
