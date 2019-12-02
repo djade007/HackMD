@@ -11,6 +11,10 @@ class MonnifyTest extends TestCase
     public function setUp()
     {
         parent::setUp();
+
+        $dotenv = Dotenv\Dotenv::createImmutable(__DIR__.'/..');
+        $dotenv->load();
+
         $this->monnify = new Monnify();
     }
 

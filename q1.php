@@ -1,8 +1,13 @@
 <?php
 require __DIR__.'/vendor/autoload.php';
 
-
 use HMO\Monnify;
+
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
+
 
 
 
